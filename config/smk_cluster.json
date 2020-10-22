@@ -1,0 +1,17 @@
+{
+    "__default__" :
+    {
+        "account" : "dmonack",
+        "time" : "00:30:00",
+        "mem" " "1G",
+        "n" : 1,
+        "partition" : "batch",
+        "out" : "{rule}.{wildcards}.out",
+        "error" : "{rule}.{wildcards}.err"
+    },
+    "run_humann3" :
+    {
+        "time" : "12:00:00",
+        "mem" : "30G"
+    }
+}
