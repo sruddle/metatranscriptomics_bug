@@ -7,3 +7,5 @@ rule concatenate_fq:
 	shell:
 	"""
  	cat {input.file1} {input.file2} > /oak/stanford/scg/lab_dmonack/sruddle/bugs/A*_concat.fq.gz
+
+	"""
